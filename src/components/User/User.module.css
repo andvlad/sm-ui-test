@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.root:hover,
+.root:focus {
+  background-color: #21a19a;
+}
+
+.active {
+  background-color: #005e7f;
+}
+
+.name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.postsCount {
+  height: 24px;
+  margin-left: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: rgba(240, 240, 240, 0.4);
+}

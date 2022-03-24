@@ -1,0 +1,20 @@
+.root {
+  max-width: 640px;
+  padding: 12px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.date {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.highlighted {
+  background-color: yellow;
+}
